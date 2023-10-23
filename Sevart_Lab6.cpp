@@ -4,7 +4,7 @@
 
 const int MAX_SIZE = 100;
 
-void readMatricesFromFile(std::string fileName, int (&matrix1)[MAX_SIZE][MAX_SIZE], int (&matrix2)[MAX_SIZE][MAX_SIZE], int &matrixSize);
+void readFile(std::string fileName, int (&matrix1)[MAX_SIZE][MAX_SIZE], int (&matrix2)[MAX_SIZE][MAX_SIZE], int &matrixSize);
 void printMatrix(int(&matrix)[MAX_SIZE][MAX_SIZE], int matrixSize);
 void addMatrices(int(&matrix1)[MAX_SIZE][MAX_SIZE], int(&matrix2)[MAX_SIZE][MAX_SIZE], int(&result)[MAX_SIZE][MAX_SIZE], int matrixSize);
 void multiplyMatrices(int(&matrix1)[MAX_SIZE][MAX_SIZE], int(&matrix2)[MAX_SIZE][MAX_SIZE], int(&result)[MAX_SIZE][MAX_SIZE], int matrixSize);
